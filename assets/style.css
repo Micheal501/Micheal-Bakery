@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(45, 43, 43);
+  color: #fff;
+}
+
+header {
+  padding: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  gap: 35px;
+  padding: 5px;
+}
+
+.right-links:hover {
+  font-weight: bold;
+}
+
+.right-links {
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.Product-images {
+  display: flex;
+  gap: 20px;
+  height: 300px;
+  padding: 15px;
+  justify-content: center;
+}
+
+.about {
+  text-align: center;
+  margin-top: 200px;
+  font-size: 35px;
+}
+
+.about p {
+  padding: 0px;
+  margin-top: 0px;
+  font-size: 20px;
+}
+
+.about-text {
+  margin-top: 35px;
+  text-align: center;
+  font-size: 25px;
+  padding: 5px;
+}
+
+.quote {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 24px;
+}
+.about-text p {
+  margin: 7px;
+}
+
+aside {
+  margin-left: 20px;
+}
+
+aside p {
+  padding: 10px;
+  float: left;
+}
+
+aside img {
+  height: 200px;
+  float: left;
+  margin-top: 80px;
+}
+
+.clear-img {
+  clear: left;
+}
+
+footer {
+  padding: 40px;
+  background-color: rgb(35, 34, 34);
+  margin-top: 60px;
+}
+
+form b {
+  font-size: 30px;
+}
+
+form {
+  text-align: center;
+  margin-top: 70px;
+}
+
+#favourite {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 897px) {
+  img {
+    height: 40px;
+  }
+}
